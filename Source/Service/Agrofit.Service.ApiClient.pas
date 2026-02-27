@@ -17,7 +17,7 @@ type
   TAgrofitApiClient = class(TInterfacedObject, iApiClient)
   private
     const C_API_URL = 'https://api.cnptia.embrapa.br/agrofit/v1/produtos-tecnicos/';
-    const C_API_TOKEN = '9c9e9246-6835-33b3-90f7-fb1cff941bae';
+    const C_API_TOKEN = 'COLE_O_SEU_TOKEN_AQUI';
     function ArrayToString(const AJSONArray: TJSONArray): string;
     function ParseJSON(const AJSON: string): TDefensivoAgricolaDTO;
   public
